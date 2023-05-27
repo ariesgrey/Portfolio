@@ -1,0 +1,144 @@
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0d0d2;
+}
+
+
+/* Header */
+body > header {
+  background-color: #00605B;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+h1 {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 48px;
+  color: white;
+  
+  padding-bottom: 0px;
+  padding-left: 2px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  
+  padding-top: 0px;
+  padding-left: 2px;
+  margin-top: 0px;
+}
+
+
+/* Horizontal Ruler */
+hr {
+  height: 2px;
+  background-color: #00605B;
+  border: white 1px solid;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+/* Main Body */
+img {
+  width: 400px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-style: italic;
+  
+  padding-top: 6px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  
+  margin-top: 10px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+/* Lists */
+ul {
+  list-style: circle;
+}
+
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: left;
+  line-height: 150%;
+}
+
+#answer li {
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #00605B;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  margin-top: 80px;
+}
+
+h5 {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+
+/* Links */
+a:link {
+  color: #007A74;
+}
+
+a:visited {
+  color: #003432;
+}
+
+a:hover {
+  color: #00B2A9;
+}
+
+a:active {
+  color: #005753;
+}
+
+
+/* Classes */
+.center {
+  text-align: center;
+}
+
+.text-margins {
+  margin: auto;
+  width: 550px;
+}
+
+.light-background {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-top: 50px;
+}
