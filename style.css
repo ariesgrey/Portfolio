@@ -1,20 +1,26 @@
 /* General */
+
 * {
   box-sizing: border-box;
 }
 
+/* Main Background Color */
 body {
   background-color: #d0d0d2;
 }
 
 
+
 /* Header */
+
+/* Header Background */
 body > header {
   background-color: #00605B;
   padding-top: 1px;
   padding-bottom: 3px;
 }
 
+/* Name */
 h1 {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 48px;
@@ -25,6 +31,7 @@ h1 {
   margin-bottom: 0px;
 }
 
+/* Pronouns */
 h3 {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 20px;
@@ -37,6 +44,7 @@ h3 {
 }
 
 
+
 /* Horizontal Ruler */
 hr {
   height: 2px;
@@ -47,7 +55,10 @@ hr {
 }
 
 
+
 /* Main Body */
+
+/* Portait in Intro */
 img {
   width: 400px;
   margin: auto;
@@ -55,6 +66,7 @@ img {
   padding-bottom: 0px;
 }
 
+/* Art Credit */
 h6 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -64,6 +76,7 @@ h6 {
   margin-top: 0px;
 }
 
+/* Section Titles */
 h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 32px;
@@ -71,6 +84,7 @@ h2 {
   margin-top: 10px;
 }
 
+/* All Body Text (excluding lists) */
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
@@ -78,11 +92,15 @@ p {
 }
 
 
+
 /* Lists */
+
+/* Change Bullet Point Style */
 ul {
   list-style: circle;
 }
 
+/* List Text */
 li {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
@@ -90,11 +108,16 @@ li {
   line-height: 150%;
 }
 
+/* Answer List Text Smaller Than Other Lists */
 #answer li {
   font-size: 16px;
 }
 
+
+
 /* Footer */
+
+/* Footer Background */
 footer {
   background-color: #00605B;
   padding-top: 2px;
@@ -102,6 +125,7 @@ footer {
   margin-top: 80px;
 }
 
+/* Copyright */
 h5 {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-size: 12px;
@@ -109,7 +133,8 @@ h5 {
 }
 
 
-/* Links */
+
+/* Link Rollover */
 a:link {
   color: #007A74;
 }
@@ -127,16 +152,21 @@ a:active {
 }
 
 
+
 /* Classes */
+
+/* Center Align */
 .center {
   text-align: center;
 }
 
-.text-margins {
+/* Side Margins for Whole Page */
+.main-margins {
   margin: auto;
   width: 550px;
 }
 
+/* Section Text Background */
 .light-background {
   background-color: #f3f3f3;
   padding: 20px;
